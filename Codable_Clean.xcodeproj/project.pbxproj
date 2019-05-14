@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA25959B14299E721F6433C3 /* Pods_Codable_Clean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5601657E8F269DC332B55532 /* Pods_Codable_Clean.framework */; };
 		CD09B2A4228700A80062BBDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2A3228700A80062BBDD /* AppDelegate.swift */; };
 		CD09B2A6228700A80062BBDD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2A5228700A80062BBDD /* ViewController.swift */; };
 		CD09B2A9228700A80062BBDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD09B2A7228700A80062BBDD /* Main.storyboard */; };
 		CD09B2AB228700A90062BBDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD09B2AA228700A90062BBDD /* Assets.xcassets */; };
 		CD09B2AE228700A90062BBDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD09B2AC228700A90062BBDD /* LaunchScreen.storyboard */; };
+		CD09B2BC228701130062BBDD /* AnimeListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2B6228701130062BBDD /* AnimeListPresenter.swift */; };
+		CD09B2BD228701130062BBDD /* AnimeListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2B7228701130062BBDD /* AnimeListWorker.swift */; };
+		CD09B2BE228701130062BBDD /* AnimeListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2B8228701130062BBDD /* AnimeListRouter.swift */; };
+		CD09B2BF228701130062BBDD /* AnimeListModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2B9228701130062BBDD /* AnimeListModels.swift */; };
+		CD09B2C0228701130062BBDD /* AnimeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2BA228701130062BBDD /* AnimeListController.swift */; };
+		CD09B2C1228701130062BBDD /* AnimeListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2BB228701130062BBDD /* AnimeListInteractor.swift */; };
+		CD09B2C8228705DC0062BBDD /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2C4228705DC0062BBDD /* Extensions+UIView.swift */; };
+		CD09B2C9228705DC0062BBDD /* AnimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2C6228705DC0062BBDD /* AnimeService.swift */; };
+		CD09B2CB22870E340062BBDD /* AnimeListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD09B2CA22870E340062BBDD /* AnimeListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5601657E8F269DC332B55532 /* Pods_Codable_Clean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Codable_Clean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BA0B7B08FC78F4DDFF54BB /* Pods-Codable_Clean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codable_Clean.release.xcconfig"; path = "Pods/Target Support Files/Pods-Codable_Clean/Pods-Codable_Clean.release.xcconfig"; sourceTree = "<group>"; };
+		B689F61E0235E0A7513EE876 /* Pods-Codable_Clean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codable_Clean.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Codable_Clean/Pods-Codable_Clean.debug.xcconfig"; sourceTree = "<group>"; };
 		CD09B2A0228700A80062BBDD /* Codable_Clean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Codable_Clean.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD09B2A3228700A80062BBDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD09B2A5228700A80062BBDD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +35,15 @@
 		CD09B2AA228700A90062BBDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD09B2AD228700A90062BBDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD09B2AF228700A90062BBDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD09B2B6228701130062BBDD /* AnimeListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListPresenter.swift; sourceTree = "<group>"; };
+		CD09B2B7228701130062BBDD /* AnimeListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListWorker.swift; sourceTree = "<group>"; };
+		CD09B2B8228701130062BBDD /* AnimeListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListRouter.swift; sourceTree = "<group>"; };
+		CD09B2B9228701130062BBDD /* AnimeListModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListModels.swift; sourceTree = "<group>"; };
+		CD09B2BA228701130062BBDD /* AnimeListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListController.swift; sourceTree = "<group>"; };
+		CD09B2BB228701130062BBDD /* AnimeListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListInteractor.swift; sourceTree = "<group>"; };
+		CD09B2C4228705DC0062BBDD /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		CD09B2C6228705DC0062BBDD /* AnimeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeService.swift; sourceTree = "<group>"; };
+		CD09B2CA22870E340062BBDD /* AnimeListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimeListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA25959B14299E721F6433C3 /* Pods_Codable_Clean.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C9DD04F842CE8E155FE4ADA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5601657E8F269DC332B55532 /* Pods_Codable_Clean.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD09B297228700A80062BBDD = {
 			isa = PBXGroup;
 			children = (
 				CD09B2A2228700A80062BBDD /* Codable_Clean */,
 				CD09B2A1228700A80062BBDD /* Products */,
+				FCCA4AC85AF8BD48001F3ED6 /* Pods */,
+				C9DD04F842CE8E155FE4ADA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +87,9 @@
 		CD09B2A2228700A80062BBDD /* Codable_Clean */ = {
 			isa = PBXGroup;
 			children = (
+				CD09B2C2228705DC0062BBDD /* Utils */,
+				CD09B2C5228705DC0062BBDD /* Service */,
+				CD09B2B5228700EB0062BBDD /* AnimeList */,
 				CD09B2A3228700A80062BBDD /* AppDelegate.swift */,
 				CD09B2A5228700A80062BBDD /* ViewController.swift */,
 				CD09B2A7228700A80062BBDD /* Main.storyboard */,
@@ -64,6 +100,45 @@
 			path = Codable_Clean;
 			sourceTree = "<group>";
 		};
+		CD09B2B5228700EB0062BBDD /* AnimeList */ = {
+			isa = PBXGroup;
+			children = (
+				CD09B2B6228701130062BBDD /* AnimeListPresenter.swift */,
+				CD09B2B7228701130062BBDD /* AnimeListWorker.swift */,
+				CD09B2B8228701130062BBDD /* AnimeListRouter.swift */,
+				CD09B2B9228701130062BBDD /* AnimeListModels.swift */,
+				CD09B2BB228701130062BBDD /* AnimeListInteractor.swift */,
+				CD09B2BA228701130062BBDD /* AnimeListController.swift */,
+				CD09B2CA22870E340062BBDD /* AnimeListCell.swift */,
+			);
+			path = AnimeList;
+			sourceTree = "<group>";
+		};
+		CD09B2C2228705DC0062BBDD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CD09B2C4228705DC0062BBDD /* Extensions+UIView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CD09B2C5228705DC0062BBDD /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				CD09B2C6228705DC0062BBDD /* AnimeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FCCA4AC85AF8BD48001F3ED6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B689F61E0235E0A7513EE876 /* Pods-Codable_Clean.debug.xcconfig */,
+				B3BA0B7B08FC78F4DDFF54BB /* Pods-Codable_Clean.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD09B2B2228700A90062BBDD /* Build configuration list for PBXNativeTarget "Codable_Clean" */;
 			buildPhases = (
+				1E57218B0758A35C14F9815D /* [CP] Check Pods Manifest.lock */,
 				CD09B29C228700A80062BBDD /* Sources */,
 				CD09B29D228700A80062BBDD /* Frameworks */,
 				CD09B29E228700A80062BBDD /* Resources */,
+				CA696237C02B673F4D5A306C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +207,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1E57218B0758A35C14F9815D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Codable_Clean-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA696237C02B673F4D5A306C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Codable_Clean/Pods-Codable_Clean-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Codable_Clean/Pods-Codable_Clean-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD09B29C228700A80062BBDD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD09B2BD228701130062BBDD /* AnimeListWorker.swift in Sources */,
+				CD09B2CB22870E340062BBDD /* AnimeListCell.swift in Sources */,
+				CD09B2BC228701130062BBDD /* AnimeListPresenter.swift in Sources */,
+				CD09B2C9228705DC0062BBDD /* AnimeService.swift in Sources */,
+				CD09B2BE228701130062BBDD /* AnimeListRouter.swift in Sources */,
+				CD09B2C0228701130062BBDD /* AnimeListController.swift in Sources */,
+				CD09B2C8228705DC0062BBDD /* Extensions+UIView.swift in Sources */,
 				CD09B2A6228700A80062BBDD /* ViewController.swift in Sources */,
+				CD09B2C1228701130062BBDD /* AnimeListInteractor.swift in Sources */,
+				CD09B2BF228701130062BBDD /* AnimeListModels.swift in Sources */,
 				CD09B2A4228700A80062BBDD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +407,7 @@
 		};
 		CD09B2B3228700A90062BBDD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B689F61E0235E0A7513EE876 /* Pods-Codable_Clean.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +425,7 @@
 		};
 		CD09B2B4228700A90062BBDD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3BA0B7B08FC78F4DDFF54BB /* Pods-Codable_Clean.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
